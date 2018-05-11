@@ -6,10 +6,12 @@ import org.junit.BeforeClass;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.HashMap;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class ChromeDriverBase {
     protected static WebDriver driver;
+    protected Properties properties = new Properties();
 
     @BeforeClass
     public static void init(){
@@ -30,10 +32,10 @@ public class ChromeDriverBase {
         driver.manage().window().maximize();
         driver.get("http://wheretoeat-ca57a.firebaseapp.com/");
     }
-
+    /*
     @AfterClass
     public static void finishIt(){
         driver.manage().deleteAllCookies();
         driver.close();
-    }
+    }*/
 }
