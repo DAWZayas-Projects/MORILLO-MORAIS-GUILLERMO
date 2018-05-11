@@ -9,3 +9,5 @@ The function of this project is to show what is Selenium, what is the philosophy
 and show how to create some simple test about a web.
 
 I do this with IntelliJ Idea, Java, Selenium, Junit, and with Page - Object patron.
+
+Can see the presentation in this link : https://docs.google.com/presentation/d/1Kd9EQ_w1YHtijsvpMniZaUm6DkK2mRw6-3R36OXhke4/edit?usp=sharing
