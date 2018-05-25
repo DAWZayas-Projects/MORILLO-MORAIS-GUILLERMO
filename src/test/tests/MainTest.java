@@ -16,17 +16,23 @@ public class MainTest extends ChromeDriverBase {
     private static ProfilePage profilePage = new ProfilePage(driver);
 
     @Test
-    public void AAgoToSign () {
+    public void AAGoToSign () {
         header.goToSign();
     }
 
     @Test
-    public void ABwrongLogin () {
+    public void ABWrongLogin () {
         Assert.assertEquals(loginPage.doBadLogin(properties.getProperty("user.bad"), properties.getProperty("password.bad")), properties.getProperty("message.login.incorrect"));
     }
 
     @Test
-    public void ACcorrectLogin () {
+    public void ACCorrectLogin () {
         loginPage.doLogin(properties.getProperty("user.good"), properties.getProperty("password.good"));
+    }
+
+    @Test
+    public void ADEditProfile () {
+        String textAreaText = properties.getProperty("text.text.area");
+        Assert.assertEquals(profilePage.editProfile(textAreaText), textAreaText);
     }
 }

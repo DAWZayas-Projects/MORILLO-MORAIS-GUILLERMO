@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
+import java.util.Properties;
 
 public class ProfilePage extends PageObject {
     public ProfilePage(WebDriver wd) {
@@ -21,5 +22,11 @@ public class ProfilePage extends PageObject {
     @FindBy(xpath = "(//button[@type='button'])[7])") private WebElement editConfirmBtn;
     @FindBy(xpath = "(//button[@type='button'])[8])") private WebElement cancelEditBtn;
 
-    
+    public String editProfile (String textAreaText) {
+        fluidClick(editButton);
+        textArea.click();
+        fluidInput(textArea, textAreaText);
+        fluidClick(editConfirmBtn);
+        return textArea.getText();
+    }
 }
