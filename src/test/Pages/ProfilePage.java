@@ -13,4 +13,13 @@ public class ProfilePage extends PageObject {
     public ProfilePage(WebDriver wd) {
         super(wd);
     }
+
+    @FindBy(css = "a.pen > i.material-icons") private WebElement editButton;
+    @FindBy(css = "div.icol > input[type=\"text\"]") private WebElement nameInput;
+    @FindBy(xpath = "(//input[@type='text'])[6])") private WebElement cityInput;
+    @FindBy(css = "textarea") private WebElement textArea;
+    @FindBy(xpath = "(//button[@type='button'])[7])") private WebElement editConfirmBtn;
+    @FindBy(xpath = "(//button[@type='button'])[8])") private WebElement cancelEditBtn;
+
+    
 }

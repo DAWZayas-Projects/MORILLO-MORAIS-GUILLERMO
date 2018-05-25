@@ -15,7 +15,7 @@ public class ChromeDriverBase {
 
     @BeforeClass
     public static void init(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Guillermo Morillo\\Documents\\chromedriver1.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Guillermo Morillo\\Documents\\Selenium\\chromedriver.exe");
 
         HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
         chromePrefs.put("download.default_directory", System.getProperty("user.dir") + "\\Downloads");
