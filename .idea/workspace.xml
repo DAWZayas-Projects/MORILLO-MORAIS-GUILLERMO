@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f57e181c-d99c-4363-b628-e1458573de71" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumTestsFinalProyect/test/Utils/ChromeDriverBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SeleniumTestsFinalProyect/test/Utils/ChromeDriverBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumTestsFinalProyect/test/tests/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SeleniumTestsFinalProyect/test/tests/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Pages/ProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Utils/ChromeDriverBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Utils/ChromeDriverBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/wetest.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/wetest.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/MainTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProfilePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProfilePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Pages/ProfilePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state relative-caret-position="320">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/tests/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wetest.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/wetest.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -45,12 +63,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/Utils/PageObject.java" />
         <option value="$PROJECT_DIR$/src/test/Pages/Header.java" />
-        <option value="$PROJECT_DIR$/src/test/tests/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/wetest.properties" />
         <option value="$PROJECT_DIR$/src/test/Pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/Utils/ChromeDriverBase.java" />
         <option value="$PROJECT_DIR$/src/test/Pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/Pages/ProfilePage.java" />
+        <option value="$PROJECT_DIR$/src/test/tests/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/wetest.properties" />
       </list>
     </option>
   </component>
@@ -99,6 +117,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MORILLO-MORAIS-GUILLERMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MORILLO-MORAIS-GUILLERMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MORILLO-MORAIS-GUILLERMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MORILLO-MORAIS-GUILLERMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,7 +241,7 @@
       <workItem from="1527160598598" duration="2004000" />
       <workItem from="1527173011287" duration="720000" />
       <workItem from="1527233839024" duration="12000" />
-      <workItem from="1527248499975" duration="1902000" />
+      <workItem from="1527248499975" duration="3804000" />
     </task>
     <task id="LOCAL-00001" summary="PageObject">
       <created>1525336938597</created>
@@ -268,7 +300,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24192000" />
+    <option name="totallyTimeSpent" value="26094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -372,16 +404,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="-- Login test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/tests/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="173" selection-start-line="24" selection-start-column="173" selection-end-line="24" selection-end-column="173" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/wetest.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -751,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/wetest.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Pages/jdskjs.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -814,16 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/tests/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -836,8 +841,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Pages/ProfilePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="320">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="967" column="18" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/wetest.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/tests/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
