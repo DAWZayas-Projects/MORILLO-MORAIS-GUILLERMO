@@ -15,18 +15,56 @@ public class ProfilePage extends PageObject {
         super(wd);
     }
 
-    @FindBy(css = "a.pen > i.material-icons") private WebElement editButton;
+    // edicion de perfil
+    @FindBy(xpath = "//a[@href='/editprofile']") private WebElement editButton;
     @FindBy(css = "div.icol > input[type=\"text\"]") private WebElement nameInput;
     @FindBy(xpath = "(//input[@type='text'])[6])") private WebElement cityInput;
-    @FindBy(css = "textarea") private WebElement textArea;
-    @FindBy(xpath = "(//button[@type='button'])[7])") private WebElement editConfirmBtn;
-    @FindBy(xpath = "(//button[@type='button'])[8])") private WebElement cancelEditBtn;
+    @FindBy(xpath = "//div[@class='icol']//textarea") private WebElement textArea;
+    @FindBy(xpath = "//button[@type='button'][contains(text(),'Editar perfil')]") private WebElement editConfirmBtn;
+    @FindBy(xpath = "//button[@type='button'][contains(text(),'Descartar cambios')]") private WebElement cancelEditBtn;
 
-    public String editProfile (String textAreaText) {
-        fluidClick(editButton);
-        textArea.click();
+    //subir publicacion
+    @FindBy(xpath = "//input[@type='file']") private WebElement uploadInput;
+    @FindBy(xpath = "//html//div[@class='col left']/div//div[1]/input[1]") private WebElement titleInput;
+    @FindBy(xpath = "//html//div[@class='bloc']//div[2]/input[1]") private WebElement titlePostInput;
+    @FindBy(xpath = "//textarea[@maxlength='200']") private WebElement descriptionTextArea;
+
+    @FindBy(xpath = "//button[@data-toggle='modal']") private WebElement uploadBtn;
+    @FindBy(xpath = "//div[@class='modal-body']//h4") private WebElement modalText;
+
+
+
+    public Boolean editProfile (String textAreaText) {
+        sleep(3000);
+        waitClick(editButton);
+        waitClick(textArea);
+        textArea.clear();
         fluidInput(textArea, textAreaText);
-        fluidClick(editConfirmBtn);
-        return textArea.getText();
+        if (textArea.getText().equals(textAreaText)) {
+            actionClick(editConfirmBtn);
+            sleep(3000);
+            return true;
+        }   else {
+            actionClick(cancelEditBtn);
+            sleep(3000);
+            return false;
+        }
+    }
+
+    public Boolean uploadPost (String img, String title, String titlePost, String description) {
+
+        uploadInput.sendKeys(img);
+
+        fluidInput(titleInput, title);
+        fluidInput(titlePostInput, titlePost);
+        fluidInput(descriptionTextArea, description);
+
+        actionClick(uploadBtn);
+
+        waitVisibility(modalText);
+
+        if (modalText.getText().contains("Tu publicacion ha sido añadida")) {
+            return true;
+        } else return false;
     }
 }

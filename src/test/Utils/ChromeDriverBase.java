@@ -11,7 +11,6 @@ import java.util.concurrent.TimeUnit;
 
 public class ChromeDriverBase {
     protected static WebDriver driver;
-    protected Properties properties = new Properties();
 
     @BeforeClass
     public static void init(){

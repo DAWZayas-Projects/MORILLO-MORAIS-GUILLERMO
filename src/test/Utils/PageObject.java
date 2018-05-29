@@ -65,6 +65,11 @@ public class PageObject {
         }
     }
 
+    protected void waitClick (WebElement we) {
+        wdw.until(ExpectedConditions.elementToBeClickable(we));
+        we.click();
+    }
+
     protected void fluidInput(WebElement we, String input) {
         wdw.until(ExpectedConditions.visibilityOf(we));
         we.clear();
