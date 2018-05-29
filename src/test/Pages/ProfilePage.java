@@ -31,6 +31,9 @@ public class ProfilePage extends PageObject {
 
     @FindBy(xpath = "//button[@data-toggle='modal']") private WebElement uploadBtn;
     @FindBy(xpath = "//div[@class='modal-body']//h4") private WebElement modalText;
+    @FindBy(xpath = "//div[@class='blocinf']//div[@tabindex='-1']//div[@role='document']//div[@class='modal-content']//div[@class='modal-footer']//button") private WebElement closeModal;
+
+    @FindAll({@FindBy(className = "mainBloc")}) private List<WebElement> posts;
 
 
 
@@ -52,6 +55,7 @@ public class ProfilePage extends PageObject {
     }
 
     public Boolean uploadPost (String img, String title, String titlePost, String description) {
+        int postSizeBefore = posts.size();
 
         uploadInput.sendKeys(img);
 
@@ -60,11 +64,8 @@ public class ProfilePage extends PageObject {
         fluidInput(descriptionTextArea, description);
 
         actionClick(uploadBtn);
+        closeModal.click();
 
-        waitVisibility(modalText);
-
-        if (modalText.getText().contains("Tu publicacion ha sido añadida")) {
-            return true;
-        } else return false;
+        return (postSizeBefore < posts.size());
     }
 }
