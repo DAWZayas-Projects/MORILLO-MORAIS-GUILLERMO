@@ -65,7 +65,8 @@ public class ProfilePage extends PageObject {
 
         actionClick(uploadBtn);
         closeModal.click();
-
+        scrollDown();
+        sleep(1000);
         return (postSizeBefore < posts.size());
     }
 }

@@ -37,6 +37,9 @@ public class PageObject {
         actions.moveToElement(we).click(we).sendKeys(input).build().perform();
     }
 
+    protected void scrollDown () {
+        js.executeScript("scroll (0, 500)");
+    }
 
     protected WebElement getParent(WebElement we){return we.findElement(By.xpath(".."));}
 

@@ -21,17 +21,20 @@ public class Header extends PageObject {
     public void goToInit () {
         logo.click();
     }
-    public void goToProfile () {
+    public boolean goToProfile () {
         profileBtn.click();
+        return fluidGetCurentUrl().equals("https://wheretoeat-ca57a.firebaseapp.com/profile");
     }
-    public void goToSign () {
+    public boolean goToSign () {
         signUpBtn.click();
+        return fluidGetCurentUrl().equals("https://wheretoeat-ca57a.firebaseapp.com/login");
     }
     public void logOut () {
         logOutBtn.click();
     }
-    public void goToFavorites () {
+    public boolean goToFavorites () {
         favoitesBtn.click();
+        return fluidGetCurentUrl().equals("https://wheretoeat-ca57a.firebaseapp.com/favorites");
     }
     public void goToZone () {
         zoneBtn.click();

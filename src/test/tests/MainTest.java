@@ -17,7 +17,7 @@ public class MainTest extends ChromeDriverBase {
 
     @Test
     public void AAGoToSign () {
-        header.goToSign();
+        Assert.assertTrue(header.goToSign());
     }
 
     @Test
