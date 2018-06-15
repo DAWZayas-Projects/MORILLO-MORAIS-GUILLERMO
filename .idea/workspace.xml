@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f57e181c-d99c-4363-b628-e1458573de71" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/client_combined_3_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/client_combined_3_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_11_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SeleniumTestsFinalProyect/test/Pages/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SeleniumTestsFinalProyect/test/Pages/Header.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SeleniumTestsFinalProyect/test/tests/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SeleniumTestsFinalProyect/test/tests/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Utils/ChromeDriverBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Utils/ChromeDriverBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/MainTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +25,7 @@
       <file leaf-file-name="PageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Utils/PageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2380">
+            <state relative-caret-position="2023">
               <caret line="130" column="19" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -29,21 +37,31 @@
       <file leaf-file-name="ChromeDriverBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Utils/ChromeDriverBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="51">
+              <caret line="16" column="120" selection-start-line="16" selection-start-column="120" selection-end-line="16" selection-end-column="120" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/tests/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="343">
+              <caret line="40" column="87" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
                 <element signature="e#639#640#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/Pages/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -51,17 +69,17 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="85">
               <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FavoritesPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FavoritesPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Pages/FavoritesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="102">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,7 +90,7 @@
       <file leaf-file-name="Header.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Pages/Header.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
+            <state relative-caret-position="493">
               <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
               <folding>
                 <element signature="e#1593#1594#0" expanded="true" />
@@ -85,7 +103,7 @@
       <file leaf-file-name="ProfilePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Pages/ProfilePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
+            <state relative-caret-position="986">
               <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
             </state>
           </provider>
@@ -108,13 +126,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/Pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/wetest.properties" />
-        <option value="$PROJECT_DIR$/src/test/Utils/ChromeDriverBase.java" />
         <option value="$PROJECT_DIR$/src/test/Utils/PageObject.java" />
         <option value="$PROJECT_DIR$/src/test/Pages/ProfilePage.java" />
         <option value="$PROJECT_DIR$/src/test/Pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/tests/MainTest.java" />
         <option value="$PROJECT_DIR$/src/test/Pages/Header.java" />
         <option value="$PROJECT_DIR$/src/test/Pages/FavoritesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/Utils/ChromeDriverBase.java" />
+        <option value="$PROJECT_DIR$/src/test/tests/MainTest.java" />
       </list>
     </option>
   </component>
@@ -130,6 +148,9 @@
       <select />
     </treeState>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="980" />
@@ -143,14 +164,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MORILLO-MORAIS-GUILLERMO" type="b2602c69:ProjectViewProjectNode" />
               <item name="MORILLO-MORAIS-GUILLERMO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MORILLO-MORAIS-GUILLERMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MORILLO-MORAIS-GUILLERMO" type="462c0819:PsiDirectoryNode" />
+              <item name="librerias para project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MORILLO-MORAIS-GUILLERMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MORILLO-MORAIS-GUILLERMO" type="462c0819:PsiDirectoryNode" />
+              <item name="presentacion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MORILLO-MORAIS-GUILLERMO" type="b2602c69:ProjectViewProjectNode" />
@@ -188,14 +220,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="prop&#9;FILE&#9;file://C:/Users/Guillermo Morillo/Documents/FinalProyect/SeleniumTestsFinalProyect/src/test/resources/wetest.properties&#10;tes&#9;FILE&#9;file://C:/Users/Guillermo Morillo/Documents/FinalProyect/SeleniumTestsFinalProyect/src/test/tests/MainTest.java&#10;chro&#9;FILE&#9;file://C:/Users/Guillermo Morillo/Documents/FinalProyect/SeleniumTestsFinalProyect/src/test/Utils/ChromeDriverBase.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring/gs-rest-service/initial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/librerias para project/client-combined-3.11.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15917969" />
     <property name="project.structure.side.proportion" value="0.29282406" />
@@ -243,21 +274,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.test in SeleniumTestsFinalProyect" />
@@ -302,6 +318,7 @@
       <workItem from="1527677781193" duration="728000" />
       <workItem from="1528787362231" duration="4590000" />
       <workItem from="1528798523789" duration="68000" />
+      <workItem from="1529060118314" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="PageObject">
       <created>1525336938597</created>
@@ -335,15 +352,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_in_SeleniumTestsFinalProyect - 2018.06.12 at 09h 14m 44s.xml">
-      <configuration name="test in SeleniumTestsFinalProyect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_in_SeleniumTestsFinalProyect - 2018.06.12 at 09h 16m 44s.xml">
-      <configuration name="test in SeleniumTestsFinalProyect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_in_SeleniumTestsFinalProyect - 2018.06.12 at 09h 17m 07s.xml">
-      <configuration name="test in SeleniumTestsFinalProyect" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="test_in_SeleniumTestsFinalProyect - 2018.06.12 at 09h 19m 50s.xml">
       <configuration name="test in SeleniumTestsFinalProyect" configurationId="JUnit" />
     </history-entry>
@@ -365,15 +373,25 @@
     <history-entry file="test_in_SeleniumTestsFinalProyect - 2018.06.12 at 09h 24m 30s.xml">
       <configuration name="test in SeleniumTestsFinalProyect" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="test_in_SeleniumTestsFinalProyect - 2018.06.15 at 13h 01m 57s.xml">
+      <configuration name="test in SeleniumTestsFinalProyect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_in_SeleniumTestsFinalProyect - 2018.06.15 at 13h 04m 45s.xml">
+      <configuration name="test in SeleniumTestsFinalProyect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_in_SeleniumTestsFinalProyect - 2018.06.15 at 13h 06m 11s.xml">
+      <configuration name="test in SeleniumTestsFinalProyect" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45133000" />
+    <option name="totallyTimeSpent" value="45821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3290938" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -381,11 +399,11 @@
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32931727" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4161932" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41494435" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13654618" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13616398" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -396,24 +414,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27365357" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32905984" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16577181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27365357" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -426,7 +443,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -505,6 +522,7 @@
           <caret line="24" column="173" selection-start-line="24" selection-start-column="173" selection-end-line="24" selection-end-column="173" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
           </folding>
         </state>
@@ -555,6 +573,7 @@
           <caret line="24" column="173" selection-start-line="24" selection-start-column="173" selection-end-line="24" selection-end-column="173" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
           </folding>
         </state>
@@ -615,6 +634,7 @@
           <caret line="24" column="173" selection-start-line="24" selection-start-column="173" selection-end-line="24" selection-end-column="173" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
           </folding>
         </state>
@@ -665,6 +685,7 @@
           <caret line="24" column="173" selection-start-line="24" selection-start-column="173" selection-end-line="24" selection-end-column="173" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
           </folding>
         </state>
@@ -684,6 +705,7 @@
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
           </folding>
         </state>
@@ -712,6 +734,7 @@
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
           </folding>
         </state>
@@ -730,6 +753,7 @@
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
           </folding>
         </state>
@@ -765,20 +789,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Selenium/librerias para project/client-combined-3.11.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Selenium/librerias para project/client-combined-3.11.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -787,30 +798,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/wetest.properties" />
-    <entry file="jar://$PROJECT_DIR$/../../Selenium/librerias para project/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-677">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Packages/Microsoft.SkypeApp_kzf8qxf38zg5c/LocalState/Downloads/idealistaObtenerUrbanizaciones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Utils/ChromeDriverBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Selenium/librerias para project/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Packages/Microsoft.SkypeApp_kzf8qxf38zg5c/LocalState/Downloads/idealistaObtenerUrbanizaciones.java" />
     <entry file="file://$PROJECT_DIR$/src/test/Utils/PageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
+        <state relative-caret-position="2023">
           <caret line="130" column="19" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -818,20 +810,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/tests/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Pages/Header.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
+        <state relative-caret-position="493">
           <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding>
             <element signature="e#1593#1594#0" expanded="true" />
@@ -842,24 +823,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Pages/ProfilePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
+        <state relative-caret-position="986">
           <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="85">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Pages/FavoritesPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Utils/ChromeDriverBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="16" column="120" selection-start-line="16" selection-start-column="120" selection-end-line="16" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/tests/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="40" column="87" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -921,6 +928,19 @@
             <option name="proportions">
               <list>
                 <option value="0.29282406" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -928,7 +948,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>selenium-server-standalone-3.11.0</last-edited>
+          <last-edited>client-combined-3.11.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

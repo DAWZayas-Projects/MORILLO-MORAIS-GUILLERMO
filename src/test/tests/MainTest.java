@@ -38,7 +38,7 @@ public class MainTest extends ChromeDriverBase {
 
     @Test
     public void AEUploadPost () {
-        String img = "C:\\Users\\Guillermo Morillo\\Documents\\FinalProyect\\MORILLO-MORAIS-GUILLERMO\\imagenesPresentacion\\descarga.jpg";
+        String img = "C:\\Users\\gmori\\Desktop\\finalProject\\MORILLO-MORAIS-GUILLERMO\\imagenesPresentacion\\descarga.jpg";
         String title = "selenium";
         String titlePost = "selenium post";
         String desc = "post creado desde selenium, no es para comer";
